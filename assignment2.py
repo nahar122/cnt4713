@@ -46,7 +46,11 @@ class Assignment2:
                     return False
                 else:
                     number_found = True
-        return True
+        
+        if number_found:
+            return True
+        
+        return False
     
     @staticmethod
     def connectTcp(host, port):
